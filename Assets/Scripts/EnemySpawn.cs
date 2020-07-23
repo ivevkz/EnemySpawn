@@ -13,13 +13,12 @@ public class EnemySpawn : MonoBehaviour
     private Transform[] _points;
     private float _runningTime, _counterTemplete;
     private int _index;
-
-    void Start()
+    private void Start()
     {
         _points = GetComponentsInChildren<Transform>();        
     }
 
-    void Update()
+    private void Update()
     {      
         if (_countTemplete >= _counterTemplete)
         {            
